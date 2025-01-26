@@ -1,0 +1,71 @@
+/* تنسيقات أساسية */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #8098ff, #aab5ff);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* الحاوية الرئيسية */
+.container {
+  max-width: 600px;
+  padding: 30px;
+background-image: url('all.jpg');
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* العنوان */
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #dcdcdc;
+}
+
+/* الأزرار */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+/* زر الرجوع */
+.button.back {
+  background-color: #ff4500;
+}
+
+.button.back:hover {
+  background-color: #e63900;
+}
